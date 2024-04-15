@@ -6,6 +6,7 @@ body{
    background-size: contain;
    background-repeat: repeat;
    background-color: #000000;
+   margin: 0;
 }
 nav{
    display: flex;
@@ -14,6 +15,12 @@ nav{
     background-color: black;
     height: 96px;
 }
+
+main{
+   margin: 0;
+
+}
+
 ul{
    text-decoration: none;
    display: flex;
@@ -48,6 +55,7 @@ a{
      position: relative;
      margin: 10px 0 10px;
      color: #000000;
+     text-justify:inter-word;
    
 
     }
@@ -57,7 +65,7 @@ a{
     }
     .caution{
      position: absolute;
-     top:10%;
+     top:20%;
      left: 55%;
      transform: translate(-50%,-50%);
 
@@ -145,4 +153,5 @@ a{
    h1{
       display: flex;
       justify-content: center;
+      text-justify: auto;
    }
