@@ -1,11 +1,7 @@
 body{
    font-family:  Now Text, Helvetica, Arial, sans-serif;
-   background-image: url("bmw merco audi.jpg");
+   background-image: url("");
    color: white;
-   background-repeat: no-repeat;
-   background-size: contain;
-   background-repeat: repeat;
-   background-color: #000000;
    margin: 0;
 }
 nav{
@@ -53,7 +49,7 @@ a{
     }
     #garilocation{
      position: relative;
-     margin: 0px 0 10px;
+     margin: 0px;
      color: #000000;
      text-justify:inter-word;
    
@@ -65,7 +61,7 @@ a{
     }
     .caution{
      position: absolute;
-     top:20%;
+     top:14%;
      left: 55%;
      transform: translate(-50%,-50%);
 
@@ -80,7 +76,7 @@ a{
        align-items:center;
        flex-wrap: wrap;
        justify-content: center;
-       color: rgb(224, 15, 15);
+       color: rgb(255, 255, 255);
     }
     .gamos{
      display: flex;
@@ -155,3 +151,26 @@ a{
       justify-content: center;
       text-justify: auto;
    }
+
+
+   #vehicules{
+      position: relative;
+      margin: 0px;
+      color: #000000;
+      text-justify:inter-word;
+    
+ 
+     }
+
+     #vehicules .veve{
+      display: flex;
+      width: 100%;
+     }
+     .demonstration{
+      position: absolute;
+      top:14%;
+      left: 55%;
+      transform: translate(-50%,-50%);
+ 
+     }
+     
